@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://code.jquery.com/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -9,21 +11,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-route.js"></script>
   <script src="data.js"></script>
   <link rel="stylesheet" href="main.css"/>
+  <link rel="shortcut icon" href="img/uwicon.gif">
   <title>UW | Did You Know?</title>
 </head>
 <body>
   <div class="container">
-    <div class="header">
-        <h1>UW | Did You Know...?</h1>
+    <div class="header" style="button:hover background: #3071A9">
+        <h1>University of Washington:</h1><h1 style="color: gold"> Did You Know...?</h1>
+
 		<div class="btn-group btn-group-justified" role="group" aria-label="...">
 		  <div class="btn-group" role="group">
-		    <a href="#/"><button type="button" class="btn btn-default">Home</button></a>
+		    <a href="#/"><button style="background-color: #B93B8F; color: #000000" type="button" class="btn btn-default">Home</button></a>
 		  </div>
 		  <div class="btn-group" role="group">
-		    <a href="#/about"><button type="button" class="btn btn-default">About</button></a>
+		    <a href="#/about"><button style="background-color: gold; color: #000000" type="button" class="btn btn-default">About</button></a>
 		  </div>
 		   <div class="btn-group" role="group">
-		    <a href="#/data"><button type="button" class="btn btn-default">Data</button></a>
+		    <a href="#/data"><button style="color: #000000" type="button" class="btn btn-default">Data</button></a>
 		  </div>
 		</div>
       </div>
@@ -31,8 +35,9 @@
     <div ng-app="myApp">
       <div ng-view></div>
     </div>
-  <footer>
-    <p>Created by Team Hammer, UW INFO 343, SUM 2015, Freeman</p>
+  <footer style="padding: 1em; background-color: lightyellow; border-top: 5px #EC791F">
+    <p>Created by Team Hammer, UW INFO 343, SUM 2015, Mike Freeman</p>
+    <p><a href = #>Back to Top &#8593</a></p>
   </footer>
   </div>
 </body>
